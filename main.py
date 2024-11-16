@@ -1,4 +1,4 @@
-# Powered by @itzshukla | TELE:- @SHIVANSH474
+# Powered by @itzshukla | TELE:- @KSD_BOT_NETWORK
 # Dear Pero ppls Plish Don't remove this line from here🌚
 # created by SHASHANK SHUKLA
 import logging
@@ -28,9 +28,9 @@ API_ID = int(os.getenv("API_ID", ""))
 API_HASH = os.getenv("API_HASH", "")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 OWNER_ID = os.getenv("OWNER_ID", "")
-SUDO_ID = "6868182331"
-LUCIFER = "6762113050"
-COWNER_ID = "6919199044"
+SUDO_ID = "7668520999"
+LUCIFER = "7668520999"
+COWNER_ID = "7668520999"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
 sree = TelegramClient(
@@ -39,16 +39,16 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "SHIVANSH39"
-repo = "https://github.com/itzshukla/STRANGER-BANALL"
+Owner = "ll_hunter_lll"
+repo = "https://github.com/ksdofficial8/STRANGER-BANALL"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/STRANGERXWORLD"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/SHIVANSH474"), Button.url("••ʀᴇᴘᴏ••", f'{repo}')]
+    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/TEAM_RIYA_SUPPORT"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/KSD_BOT_NETWORK"), Button.url("••ʀᴇᴘᴏ••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://graph.org/file/1d11deb9c55d1301e9cae.jpg",
+            file="https://files.catbox.moe/ijicdg.webp",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -62,7 +62,7 @@ async def start(event):
     if event.sender.id not in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://graph.org/file/1d11deb9c55d1301e9cae.jpg",
+            file="https://files.catbox.moe/ijicdg.webp",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -77,20 +77,20 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/STRANGERXWORLD"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/SHIVANSH474"),
+    buttns = [Button.url("••sᴜᴘᴘᴏʀᴛ••", "https://t.me/team_riya_support"), Button.url("••ᴜᴘᴅᴀᴛᴇs••", "https://t.me/ksd_bot_network"),
     Button.url("••ʀᴇᴘᴏ••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://graph.org/file/1d11deb9c55d1301e9cae.jpg",
+            file="https://files.catbox.moe/ijicdg.webp",
             caption=hlptxt.format(event.sender.first_name, event.sender.id),
             link_preview=False,
             buttons=buttns
         )
     if event.sender.id not in OP:
         await event.reply(
-            "ʜᴜʜ ɴɪɢɢᴀ!\ɴᴛʜɪs ɪs ɴᴏᴛ ғᴏʀ ʏᴏᴜ ʟᴏʟ 😑\n\ɴᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ ᴛʜɪs [ʀᴇᴘᴏsɪᴛᴏʀʏ⚡](https://github.com/itzshukla/STRANGER-BANALL)",
+            "ʜᴜʜ ɴɪɢɢᴀ!\ɴᴛʜɪs ɪs ɴᴏᴛ ғᴏʀ ʏᴏᴜ ʟᴏʟ 😑\n\ɴᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ғʀᴏᴍ ᴛʜɪs [ʀᴇᴘᴏsɪᴛᴏʀʏ⚡](https://github.com/ksdofficial8/STRANGER-BANALL)",
             link_preview=False,
         )       
 
@@ -177,7 +177,7 @@ async def ver(events):
 
 
 print("ʏᴏᴜʀ ʙᴏᴛ  ᴅᴇᴘʟᴏʏᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅")
-print("ᴊᴏɪɴ @sʜᴛᴀɴɢᴇʀxᴡᴏʀʟᴅ ɪғ ʏᴏᴜ ғᴀᴄɪɴɢ ᴀɴʏ ᴋɪɴᴅ ᴏғ ɪssᴜᴇ!!")
+print("ᴊᴏɪɴ @KSD_BOT_NETWORK ɪғ ʏᴏᴜ ғᴀᴄɪɴɢ ᴀɴʏ ᴋɪɴᴅ ᴏғ ɪssᴜᴇ!!")
 
 
 
