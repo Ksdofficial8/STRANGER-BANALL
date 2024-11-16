@@ -10,7 +10,7 @@ def sample_response(input_text):
     return f"{photo3}\n\
     hey! adil is not here i am lara wanna play with me"
 
-  if user_message in ("shiv", "shivansh", "your shivansh", "@SHIVANSH39"):
+  if user_message in ("shiv", "shivansh", "your shivansh", "@KSDOFFICIAL84"):
     return "HE is busy in her schedule. you can tell me i inform her"
   if user_message in ("bsdk", "madharchod", "bkl", "behanchod", "cgutiya",
                       "gaandu"):
